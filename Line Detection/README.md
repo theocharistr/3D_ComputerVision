@@ -1,4 +1,4 @@
-### Fit RANSAC lines on edge detected image
+#### Fit RANSAC lines on edge detected image
 ## Input
  ![alt text](https://github.com/theocharistr/3D_ComputerVision/blob/master/Line%20Detection/data/0095.jpg)
 ## Apply Canny edge detection
