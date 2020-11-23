@@ -1,0 +1,10 @@
+^C:\USERS\HARIS\SOURCE\REPOS\PLANEDETECTION\BUILD\CMAKEFILES\59A102086233FD60DB7FD624F2218282\GENERATE.STAMP.RULE
+setlocal
+C:\Users\haris\cmake\bin\cmake.exe -SC:/Users/haris/source/repos/PlaneDetection -BC:/Users/haris/source/repos/PlaneDetection/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/haris/source/repos/PlaneDetection/build/ProjectName.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\haris\source\repos\PlaneDetection\src\LSQfitting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixReaderWriter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\haris\source\repos\PlaneDetection\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E4E500E3-1651-34DB-AA36-5516D4603594}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\MatrixReaderWriter.h" />
+  </ItemGroup>
+</Project>

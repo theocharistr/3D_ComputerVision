@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\haris\source\repos\PlaneDetection\build\CMakeFiles\59a102086233fd60db7fd624f2218282\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B3C56729-4C33-3C10-BD0B-0945EC033AA7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

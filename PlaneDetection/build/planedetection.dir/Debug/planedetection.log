@@ -1,0 +1,38 @@
+﻿  LSQfitting.cpp
+C:\Users\haris\source\repos\PlaneDetection\src\LSQfitting.cpp(39,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\haris\source\repos\PlaneDetection\src\LSQfitting.cpp(122,11): warning C4244: 'return': conversion from 'double' to 'size_t', possible loss of data
+C:\Users\haris\source\repos\PlaneDetection\src\LSQfitting.cpp(167,11): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\haris\source\repos\PlaneDetection\src\LSQfitting.cpp(257,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+C:\Users\haris\source\repos\PlaneDetection\src\LSQfitting.cpp(257,11): message : consider using '%zd' in the format string
+C:\Users\haris\source\repos\PlaneDetection\src\LSQfitting.cpp(257,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'size_t'
+C:\Users\haris\source\repos\PlaneDetection\src\LSQfitting.cpp(257,11): message : consider using '%zd' in the format string
+C:\Users\haris\source\repos\PlaneDetection\src\LSQfitting.cpp(307,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\haris\source\repos\PlaneDetection\src\LSQfitting.cpp(314,25): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\haris\source\repos\PlaneDetection\src\LSQfitting.cpp(315,25): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\haris\source\repos\PlaneDetection\src\LSQfitting.cpp(316,25): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(701,1): warning C4267: 'initializing': conversion from 'size_t' to '_Objty', possible loss of data
+          with
+          [
+              _Objty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(687): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,size_t&>(_Alloc &,_Objty *const ,size_t &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ty=int,
+              _Objty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(687): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,size_t&>(_Alloc &,_Objty *const ,size_t &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ty=int,
+              _Objty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(705): message : see reference to function template instantiation 'void std::vector<int,std::allocator<int>>::_Emplace_back_with_unused_capacity<size_t&>(size_t &)' being compiled
+C:\Users\haris\source\repos\PlaneDetection\src\LSQfitting.cpp(235): message : see reference to function template instantiation 'void std::vector<int,std::allocator<int>>::emplace_back<size_t&>(size_t &)' being compiled
+  planedetection.vcxproj -> C:\Users\haris\source\repos\PlaneDetection\build\Debug\planedetection.exe
