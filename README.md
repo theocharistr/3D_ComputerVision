@@ -5,3 +5,5 @@
 - Plane Detection
 - Pong Game
 - Image Transformations
+- Stereo Reconstruction  
+- Homography Estimation
