@@ -4,11 +4,11 @@ Estimating the fundamental and essential matrices of input stereo images, and th
 
 Input #1:
 
- <img src="https://github.com/theocharistr/3D_ComputerVision/blob/master/Stereo%20Reconstruction/Inputs/a.png" width="600" height="400">
+ <img src="https://github.com/theocharistr/3D_ComputerVision/blob/master/Stereo%20Reconstruction/Input/a.png" width="600" height="400">
 
 Input #2:
 
- <img src="https://github.com/theocharistr/3D_ComputerVision/blob/master/Stereo%20Reconstruction/Inputs/b.png" width="600" height="400">
+ <img src="https://github.com/theocharistr/3D_ComputerVision/blob/master/Stereo%20Reconstruction/Input/b.png" width="600" height="400">
  
  Matched features:
  
