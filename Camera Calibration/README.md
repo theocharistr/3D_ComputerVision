@@ -1,5 +1,5 @@
 #Camera Calibration  
-Input:  ![alt text](https://github.com/theocharistr/3D_ComputerVision/tree/master/Camera%20Calibration/Input)
+Input:  ![alt text](https://github.com/theocharistr/3D_ComputerVision/tree/master/Camera%20Calibration/Input.png)
 
 Output:  ![alt text](https://github.com/theocharistr/3D_ComputerVision/blob/master/Camera%20Calibration/Output/Calibration%20Parameters.png)
 
