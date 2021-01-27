@@ -1,4 +1,4 @@
-##Camera Calibration  
+## Camera Calibration  
 Input:  ![alt text](https://github.com/theocharistr/3D_ComputerVision/blob/master/Camera%20Calibration/Input/Box.jpg)
 
 Output:  ![alt text](https://github.com/theocharistr/3D_ComputerVision/blob/master/Camera%20Calibration/Output/Calibration%20Parameters.png)
