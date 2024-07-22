@@ -65,11 +65,12 @@ In OpenCV, transformation refers to altering the position, orientation, or size 
 ## Task 7: Stereo Reconstruction
 The code performs 3D reconstruction from stereo images by:
 
--Loading and Normalizing Data: Reads and normalizes feature points from two images.
--Estimating Fundamental Matrix: Uses RANSAC to find the fundamental matrix relating the images.
--Calculating Essential Matrix and Projection Matrices: Computes these matrices to derive camera perspectives.
--Triangulating Points: Converts 2D feature points into 3D coordinates using the projection matrices.
--Outputting Results: Displays matches and saves the 3D point cloud.
+- **Loading and Normalizing Data:** Reads and normalizes feature points from two images.
+- **Estimating Fundamental Matrix:** Uses RANSAC to find the fundamental matrix relating the images.
+- **Calculating Essential Matrix and Projection Matrices:** Computes these matrices to derive camera perspectives.
+- **Triangulating Points:** Converts 2D feature points into 3D coordinates using the projection matrices.
+- **Outputting Results:** Displays matches and saves the 3D point cloud.
+
 It combines feature matching, matrix computations, and 3D point triangulation to reconstruct the scene.
 
 Stereo reconstruction in computer vision is the process of creating a 3D model of a scene from two or more 2D images taken from different viewpoints. By analyzing the disparities between corresponding points in these images, the depth and spatial relationships of objects in the scene can be estimated.
