@@ -53,13 +53,14 @@ The code applies affine and perspective transformations to an image using OpenCV
 
 In OpenCV, transformation refers to altering the position, orientation, or size of an image using mathematical operations. This includes:
 
--Translation: Shifting the image position.
--Rotation: Rotating the image around a point.
--Scaling: Changing the image size.
--Skewing: Distorting the image by slanting.
--Affine Transformation: A combination of translation, rotation, scaling, and skewing.
--Perspective Transformation: Altering the image to simulate different viewpoints.
--These transformations are typically achieved using transformation matrices applied to image coordinates.
+- Translation: Shifting the image position.
+- Rotation: Rotating the image around a point.
+- Scaling: Changing the image size.
+- Skewing: Distorting the image by slanting.
+- Affine Transformation: A combination of translation, rotation, scaling, and skewing.
+- Perspective Transformation: Altering the image to simulate different viewpoints.
+
+ These transformations are typically achieved using transformation matrices applied to image coordinates.
 
 ## Task 7: Stereo Reconstruction
 The code performs 3D reconstruction from stereo images by:
