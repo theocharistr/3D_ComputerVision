@@ -25,12 +25,12 @@ The code allows users to either interactively manipulate the 3D point cloud or w
 - **Affine Transformation**: 2D image manipulation.
 - **3D Rotation**: Rotating 3D models around axes.
 
-##Task 2: Camera Calibration
+## Task 2: Camera Calibration
 This code calculates a camera projection matrix from 3D-2D point correspondences, normalizes the point data, solves for the projection matrix, and then decomposes it into intrinsic parameters, rotation matrix, and translation vector.
 
 Camera calibration is the process of determining a camera's intrinsic parameters (focal length, optical center, and distortion coefficients) and extrinsic parameters (camera position and orientation relative to a world coordinate system). It enables accurate mapping between 3D world coordinates and 2D image coordinates, crucial for tasks like 3D reconstruction and accurate image measurement.
 
-##Task 3: Line Detection
+## Task 3: Line Detection
 The code reads an image, detects edges, fits lines to these edges using RANSAC, and visualizes the result. It Shows the intermediate and final results: the blurred grayscale image, edge-detected image, and the image with fitted lines.
 
 Line detection is a computer vision technique used to identify and locate straight lines within an image. It involves:
@@ -40,15 +40,15 @@ Line detection is a computer vision technique used to identify and locate straig
 3. Visualization: Drawing the detected lines on the image for analysis or further processing.
 In essence, line detection helps in recognizing linear structures and patterns within an image.
 
-##Task 4: Plane Detection
+## Task 4: Plane Detection
 The PlaneFitting.cpp file provides a complete application for plane fitting using RANSAC and Least Squares methods. It reads 3D point data, applies both fitting methods, calculates errors, and saves the results. The MatrixReaderWriter class in MatrixReaderWriter.h and MatrixReaderWriter.cpp is responsible for reading and writing matrix data from files, facilitating the handling of the input and output data.
 
 Plane detection is a fundamental technique for identifying and modeling flat surfaces in 3D data. By applying methods like RANSAC and LSQ, it helps in analyzing and utilizing 3D point clouds in various practical applications.
 
-##Task 5: Pong Game
+## Task 5: Pong Game
 This game serves as a basic example of interactive graphics and event handling in a simple 2D simulation environment using OpenCV.
 
-##Task 6: Image Transformations
+## Task 6: Image Transformations
 The code applies affine and perspective transformations to an image using OpenCV, including translation, rotation, scaling, skew, and perspective distortion. It reads an image, transforms it with specified parameters, and displays the result.
 
 In OpenCV, transformation refers to altering the position, orientation, or size of an image using mathematical operations. This includes:
@@ -61,7 +61,7 @@ In OpenCV, transformation refers to altering the position, orientation, or size 
 -Perspective Transformation: Altering the image to simulate different viewpoints.
 -These transformations are typically achieved using transformation matrices applied to image coordinates.
 
-##Task 7: Stereo Reconstruction
+## Task 7: Stereo Reconstruction
 The code performs 3D reconstruction from stereo images by:
 
 -Loading and Normalizing Data: Reads and normalizes feature points from two images.
