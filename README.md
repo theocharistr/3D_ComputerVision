@@ -8,7 +8,7 @@
 - Stereo Reconstruction  
 - Homography Estimation  
 
-##Task 1: Affine transformation and 3D rotation 
+## Task 1: Affine transformation and 3D rotation 
 The code allows users to either interactively manipulate the 3D point cloud or watch it animate with constant rotation and scaling effects.
 ### **Affine Transformation**
 - **Purpose**: Transforms 2D images through translation, scaling, rotation, and shearing.
