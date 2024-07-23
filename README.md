@@ -12,7 +12,9 @@
 The code allows users to either interactively manipulate the 3D point cloud or watch it animate with constant rotation and scaling effects.
 ### **Affine Transformation**
 - **Purpose**: Transforms 2D images through translation, scaling, rotation, and shearing.
-- **Matrix**: \( \begin{bmatrix} a & b & tx \\ c & d & ty \end{bmatrix} \)
+- **Matrix**:
+ ⎡ a b tx ⎤
+ ⎣ c d ty ⎦
 
 ### **3D Rotation**
 - **Purpose**: Rotates 3D objects around x, y, or z axes.
@@ -21,21 +23,21 @@ The code allows users to either interactively manipulate the 3D point cloud or w
  **Matrix**:
   - Rotation around x-axis:
     ```
-    [ 1       0            0      ]
+    [ 1       0          0 ]
     [ 0   cos(θ)   -sin(θ) ]
     [ 0   sin(θ)    cos(θ) ]
     ```
   - Rotation around y-axis:
     ```
     [  cos(θ)   0   sin(θ) ]
-    [       0    1         0   ]
+    [      0    1     0   ]
     [ -sin(θ)   0   cos(θ) ]
     ```
   - Rotation around z-axis:
     ```
-    [ cos(θ)   -sin(θ)   0 ]
+    [ cos(θ)   -sin(θ)    0 ]
     [ sin(θ)    cos(θ)    0 ]
-    [       0          0     1 ]
+    [     0         0     1 ]
     ```
 
 
