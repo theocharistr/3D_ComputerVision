@@ -17,9 +17,32 @@ The code allows users to either interactively manipulate the 3D point cloud or w
 ### **3D Rotation**
 - **Purpose**: Rotates 3D objects around x, y, or z axes.
 - **Matrix**: 
-  - Rotation around x-axis: \( \begin{bmatrix} 1 & 0 & 0 \\ 0 & \cos(\theta) & -\sin(\theta) \\ 0 & \sin(\theta) & \cos(\theta) \end{bmatrix} \)
-  - Rotation around y-axis: \( \begin{bmatrix} \cos(\theta) & 0 & \sin(\theta) \\ 0 & 1 & 0 \\ -\sin(\theta) & 0 & \cos(\theta) \end{bmatrix} \)
-  - Rotation around z-axis: \( \begin{bmatrix} \cos(\theta) & -\sin(\theta) & 0 \\ \sin(\theta) & \cos(\theta) & 0 \\ 0 & 0 & 1 \end{bmatrix} \)
+- **Matrix**:
+  - Rotation around x-axis: 
+    \[
+    \begin{bmatrix} 
+    1 & 0 & 0 \\ 
+    0 & \cos(\theta) & -\sin(\theta) \\ 
+    0 & \sin(\theta) & \cos(\theta) 
+    \end{bmatrix} 
+    \]
+  - Rotation around y-axis: 
+    \[
+    \begin{bmatrix} 
+    \cos(\theta) & 0 & \sin(\theta) \\ 
+    0 & 1 & 0 \\ 
+    -\sin(\theta) & 0 & \cos(\theta) 
+    \end{bmatrix} 
+    \]
+  - Rotation around z-axis: 
+    \[
+    \begin{bmatrix} 
+    \cos(\theta) & -\sin(\theta) & 0 \\ 
+    \sin(\theta) & \cos(\theta) & 0 \\ 
+    0 & 0 & 1 
+    \end{bmatrix} 
+    \]
+
 
 ### **Summary**
 - **Affine Transformation**: 2D image manipulation.
