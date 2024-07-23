@@ -18,30 +18,25 @@ The code allows users to either interactively manipulate the 3D point cloud or w
 - **Purpose**: Rotates 3D objects around x, y, or z axes.
 - **Matrix**: 
 - **Matrix**:
-  - Rotation around x-axis: 
-    \[
-    \begin{bmatrix} 
-    1 & 0 & 0 \\ 
-    0 & \cos(\theta) & -\sin(\theta) \\ 
-    0 & \sin(\theta) & \cos(\theta) 
-    \end{bmatrix} 
-    \]
-  - Rotation around y-axis: 
-    \[
-    \begin{bmatrix} 
-    \cos(\theta) & 0 & \sin(\theta) \\ 
-    0 & 1 & 0 \\ 
-    -\sin(\theta) & 0 & \cos(\theta) 
-    \end{bmatrix} 
-    \]
-  - Rotation around z-axis: 
-    \[
-    \begin{bmatrix} 
-    \cos(\theta) & -\sin(\theta) & 0 \\ 
-    \sin(\theta) & \cos(\theta) & 0 \\ 
-    0 & 0 & 1 
-    \end{bmatrix} 
-    \]
+ **Matrix**:
+  - Rotation around x-axis:
+    ```
+    [ 1       0            0      ]
+    [ 0   cos(θ)   -sin(θ) ]
+    [ 0   sin(θ)    cos(θ) ]
+    ```
+  - Rotation around y-axis:
+    ```
+    [  cos(θ)   0   sin(θ) ]
+    [       0    1         0   ]
+    [ -sin(θ)   0   cos(θ) ]
+    ```
+  - Rotation around z-axis:
+    ```
+    [ cos(θ)   -sin(θ)   0 ]
+    [ sin(θ)    cos(θ)    0 ]
+    [       0          0     1 ]
+    ```
 
 
 ### **Summary**
