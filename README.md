@@ -13,9 +13,10 @@ The code allows users to either interactively manipulate the 3D point cloud or w
 ### **Affine Transformation**
 - **Purpose**: Transforms 2D images through translation, scaling, rotation, and shearing.
 - **Matrix**:
+```
  ⎡ a b tx ⎤
  ⎣ c d ty ⎦
-
+```
 ### **3D Rotation**
 - **Purpose**: Rotates 3D objects around x, y, or z axes.
 - **Matrix**: 
