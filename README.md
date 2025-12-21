@@ -6,7 +6,7 @@
 - Pong Game
 - Image Transformations
 - Stereo Reconstruction  
-- Homography Estimation  
+- Homography Estimation 
 
 ## Task 1: Affine transformation and 3D rotation 
 The code allows users to either interactively manipulate the 3D point cloud or watch it animate with constant rotation and scaling effects.
